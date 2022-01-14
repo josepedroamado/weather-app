@@ -39,7 +39,7 @@ function Search() {
                           </FormGroup>
                         </Col>
                         <Col xs="2"> 
-                          <Button className="mt-2 px-2">Search</Button>
+                          <Button className="mt-2 px-2" color="primary">Search</Button>
                         </Col>
                     </Row>
                   </Form>
