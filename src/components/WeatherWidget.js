@@ -19,7 +19,7 @@ function WeatherWidget(props) {
               <CardImg alt="City image" src={image} style={{ width: '100%', height: '25vh'}}/>
               <CardBody>
                   <CardTitle tag="h5">{weatherData.name}, {weatherData.sys.country}</CardTitle>
-              <CardSubtitle className="mb-2 text-muted" tag="h6">{weatherData.weather[0].description} / {weatherData.main.temp} °C</CardSubtitle>
+              <CardSubtitle className="mb-2 text-muted" tag="h6">{weatherData.weather[0].description} / {Math.round(weatherData.main.temp)} °C</CardSubtitle>
               </CardBody>
             </Card>
           </>

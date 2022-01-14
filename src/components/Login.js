@@ -22,7 +22,7 @@ function Login() {
             <div className="container-fluid" style={{maxWidth: '330px', marginTop: '15%'}}>
                 <Card color="light" className="text-center shadow">
                     <CardBody>
-                        <CardTitle tag="h5">Weather App - Login</CardTitle>
+                        <CardTitle tag="h5"><strong>Weather App</strong></CardTitle>
                         <CardText>Please sign in to browse the site</CardText>
                         <Form inline onSubmit={signIn}>
                             <FormGroup floating className="mb-2 me-sm-2 mb-sm-0">
@@ -35,7 +35,7 @@ function Login() {
                                 <Label className="me-sm-2" for="password">Password</Label>
                             </FormGroup>
                             <br/>
-                            <Button>Submit</Button>
+                            <Button color="primary">Log in</Button>
                         </Form>
                     </CardBody>
                 </Card>     
